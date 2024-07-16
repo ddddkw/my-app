@@ -1,5 +1,6 @@
 import React from 'react';
 import './head.css'
+import { MenuFoldOutlined } from "@ant-design/icons";
 
 
 class head extends React.Component {
@@ -8,7 +9,9 @@ class head extends React.Component {
             <section>
                 <div className='headStyle'>
                     <div className='headTitle'>Management Center</div>
-                    <div className='headRight'></div>
+                    <div className='headRight'>
+                        <MenuFoldOutlined className='iconStyle'/>
+                    </div>
                 </div>
             </section>
         );

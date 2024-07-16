@@ -1,6 +1,7 @@
 import ActuatorManage from '../pages/actuatorManage';
 import DispatchLogs from '../pages/dispatchLogs';
 import TaskManage from '../pages/taskManage';
+import Draggable from '../pages/draggable'
 
 const Routes = [
     {
@@ -17,6 +18,11 @@ const Routes = [
         path: "/ActuatorManage",
         label:'执行器管理',
         element: <ActuatorManage/>,
+    },
+    {
+        path: "/Draggable",
+        label:'可拖拽页面',
+        element: <Draggable/>,
     },
 ];
 export default Routes;

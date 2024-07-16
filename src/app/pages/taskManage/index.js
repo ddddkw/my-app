@@ -1,5 +1,5 @@
 import React from 'react';
-import {Space, Table} from 'antd';
+import {Space, Table, Button} from 'antd';
 import './index.css'
 
 const columns = [
@@ -40,7 +40,7 @@ const columns = [
         render: (_, record) => (
             // record是当前行的数据
             <Space size="middle">
-                <a>操作</a>
+                <Button>操作</Button>
             </Space>
         ),
     }

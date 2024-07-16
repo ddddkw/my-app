@@ -14,4 +14,10 @@
     color: white;
 }
 .headRight{
+    height: 64px;
+    line-height: 64px;
+}
+.iconStyle{
+   font-size: 20px;
+    cursor: pointer;
 }
